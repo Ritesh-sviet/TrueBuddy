@@ -1,0 +1,116 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    }
+
+.home{
+    position: absolute;
+    left: 2px;
+    top: -166px;
+    width: 100%;
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1502255230-ee0ee0ee0e0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wY');
+    color: black;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-top: 10%;
+    text-decoration: none;
+    /* border: 2px solid wheat; */
+}
+
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url(bg-login.png);
+    position: absolute;
+    top: 28%;
+    left: 39%;
+}
+
+/* Login Form Styles */
+.login {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #01d4d7;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login label {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+
+.login input {
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #555;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login input:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.login input[type="submit"] {
+    background-color: #0077ff;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.login input[type="submit"]:hover {
+    background-color: hsl(210, 100%, 40%);
+}
+
+.btn {
+    background-color: #0077ff;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    height: 38px;
+    text-decoration: none;
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+}
